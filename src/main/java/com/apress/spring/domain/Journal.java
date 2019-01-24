@@ -18,7 +18,8 @@ public class Journal {
     @Transient
     private SimpleDateFormat format = new SimpleDateFormat("MM/dd/yyyy");
 
-    public Journal (){}
+    public Journal() {
+    }
 
     public Journal(String title, String summary, String date) throws ParseException {
         this.title = title;
